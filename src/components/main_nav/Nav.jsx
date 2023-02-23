@@ -5,7 +5,7 @@ import Menu from "./menu/menu";
 
 const Nav = function () {
     return (
-      <div className="main__nav">
+      <div className="main__nav nav">
         <Logo/>
         <Burger/>
         <Menu/>

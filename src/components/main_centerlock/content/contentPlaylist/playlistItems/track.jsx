@@ -8,12 +8,13 @@ const Track = function () {
         <div className="track__title">
             <div className="track__title-image">
                 <svg className="track__title-svg">
-                    <use xlinkHref="#"></use>
+                    <use xlinkHref=".\images\icon\sprite.svg"></use>
                 </svg>
             </div>
             <div className="track__title-text">
-                <a className="track__title-link" href="http://"></a>
+                <a className="track__title-link" href="http://">
                 <span className="track__title-text">Nero</span>
+                </a> 
             </div>
         </div>
         <div className="track__author">
@@ -23,7 +24,9 @@ const Track = function () {
             <a className="track__album-link" href="http://">Album</a>
         </div>
         <div className="track__time">
-            <svg className="track__time-svg"></svg>
+            <svg className="track__time-svg">
+                <use xlinkHref=".\images\icon\sprite.svg"></use>
+            </svg>
             <span className="track__time-text">4:74</span>
         </div>
     </div>

@@ -4,7 +4,7 @@ const NextButton = function () {
     return (
         <div className="player__btn-next">
             <svg className="player__btn-next-svg">
-                <use xlinkHref="#"></use>
+                <use xlinkHref=".\images\icon\sprite.svg#icon-next"></use>
             </svg>
         </div>   
     )

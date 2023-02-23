@@ -3,7 +3,7 @@ import Track from "./playlistItems/track";
 
 const Playlist = function () {
     return(
-    <div className="content__playlist">
+    <div className="content__playlist playlist">
         <Track/>
         <Track/>
         <Track/>

@@ -6,7 +6,7 @@ import Search from "./search/search";
 
 const MainCenter = function () {
     return (
-        <div className="main__centerblock">
+        <div className="main__centerblock centerblock">
             <Search/>
             <Title/>
             <Filter/>

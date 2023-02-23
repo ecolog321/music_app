@@ -4,12 +4,12 @@ import Player from "./player/Player";
 
 const Bar = function () {
     return(
-    <div className="bar">
+    
         <div className="bar__content">
-            <ProgressBar/>
-            <Player/>
-        </div>
-    </div>
+         <ProgressBar/>
+         <Player/>
+         </div>
+    
     )
 }
 

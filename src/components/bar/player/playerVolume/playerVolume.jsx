@@ -6,7 +6,7 @@ const PlayerVolume = function () {
             <div className="volume__content">
                 <div className="volume__image">
                     <svg className="volume__svg" alt="volume">
-                        <use xlinkHref=""></use></svg></div> 
+                        <use xlinkHref=".\images\icon\sprite.svg#icon-volume"></use></svg></div> 
                 <div className="volume__progress _btn">
                     <input type="range" name="range" className="volume-progress-line _btn" /></div> 
             </div>

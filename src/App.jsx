@@ -1,16 +1,12 @@
 import React from "react";
-import Bar from "./components/bar/BarContent";
-import MainCenter from "./components/main_centerlock/mainContent";
-import Nav from "./components/main_nav/Nav";
-import Sidebar from "./components/sidebar/sidebar";
+import Container from "./components/container";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <MainCenter/>
-      <Sidebar/>
-      <Bar/>
+    <div className="wrapper">
+      <Container/>
     </div>
   );
 }
